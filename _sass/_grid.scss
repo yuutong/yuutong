@@ -47,8 +47,8 @@
      and doesn't provide the no-stacking-on-mobiles class */
   .grid:not(.no-stacking-on-mobiles) > .unit {
     width: 100% !important;
-    padding-left: 0px; /*20  20*/
-    padding-right: 0px;
+    padding-left: 20px; /*20  20*/
+    padding-right:20px;
   }
   .unit .grid .unit {
     padding-left: 0px;
