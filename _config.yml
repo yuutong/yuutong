@@ -30,7 +30,7 @@ paginate_path: "/articles/page:num/"  # link scheme for articles, should be letf
 # > Title is the tile of the navigation item, url the url and desc is the tooltip
 navigation:
   - title: 笔记
-    url: /Article/
+    url: /articles/
     desc: Notes for work and daily learning
   - title: 项目
     url: /projects/
