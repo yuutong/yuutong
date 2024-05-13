@@ -1,7 +1,7 @@
 .site {
   margin-right: auto;
   margin-left: auto;
-  padding: 0 $spacer;
+  padding: 0 $spacer*2;  //padding: 0 $spacer;
   @include make-container();
 }
 
@@ -15,7 +15,7 @@
 // SITE HEADER ====================================
 
 .site-header {
-  margin: $spacer4 0 $spacer1;
+  margin: $spacer2 0 $spacer0;  //margin: $spacer4 0 $spacer1;
   @include clearfix();
 }
 
@@ -38,7 +38,7 @@
 .site-nav a {
   flex: 0 1 auto;
   padding: 0 .25rem;
-  margin-right: $spacer0;
+  margin-right: $spacer2;  //margin-right: $spacer0;
   transition: background 0.1s ease-out;
 
   &:hover {
@@ -71,7 +71,7 @@
   }
 
   .site-nav a {
-    margin-right: $spacer1;
+    margin-right: $spacer2; //margin-right: $spacer;
   }
 }
 
