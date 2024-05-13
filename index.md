@@ -32,7 +32,7 @@ layout: default
 
 
 
-<div class="lead pretty-links home-background">
+<div class="lead pretty-links">
 
 
   Hi! this Web is for yuu to write down something important. 
