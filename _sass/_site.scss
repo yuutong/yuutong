@@ -79,7 +79,8 @@
   }
 
   .site-nav a {
-    margin-right: $spacer2; //margin-right: $spacer;
+    margin-right: $spacer1; //margin-right: $spacer;
+    margin-left: 5px;
   }
 }
 
