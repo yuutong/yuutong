@@ -38,6 +38,46 @@ layout: default
 
 
   Hi! this Web is for yuu to write down something important. 
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  快乐是感觉到力量在增加 ......
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
