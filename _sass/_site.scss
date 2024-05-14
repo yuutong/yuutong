@@ -22,17 +22,17 @@
 }
 
 .site-logo {
-  width: 1rem;
-  height: 1rem;
+  width: 0rem;
+  height: 0rem;
 }
 
 .site-nav {
   display: flex;
   justify-content: center;
-  height: 40px; /* 控制导航条总体高度 */
+  height: 20px; /* 控制导航条总体高度 */
   font-family: "Lato", serif;
   font-size: 1.1rem;
-  max-width: 500px; /* 新增 */
+  max-width: 400px; /* 新增 */
   margin: 0 auto; /* 新增 */
 }
 
