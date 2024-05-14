@@ -41,7 +41,7 @@
 .site-nav a {
   flex: 0 1 auto;
   padding: 0 .25rem;
-  margin-right: 10px; /* 控制元素间距 *///margin-right: $spacer2;  //margin-right: $spacer0;
+  margin-right: 5px; /* 控制元素间距 *///margin-right: $spacer2;  //margin-right: $spacer0;
   transition: background 0.1s ease-out;
 
   &:hover {
@@ -140,6 +140,9 @@ body {
 .site-content {
   flex: 1 0 auto;
   box-sizing: border-box; /* 新增 */
+  max-width: 748px; /* 新增，将748px替换为你的实际值 */
+  margin: 0 auto; /* 新增，使得内容在页面中居中 */
+
 }
 
 .site-footer {
