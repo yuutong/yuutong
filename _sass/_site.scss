@@ -25,7 +25,7 @@
 .site-logo {
   width: 10px;   //0rem;
   height: 10px;    //0rem;
-  margin-right: 5px; // 添加右边距，将图标和文字分开
+  margin-right: 20px; // 添加右边距，将图标和文字分开
 }
 
 .site-nav {
@@ -34,7 +34,7 @@
   height: 20px; /* 控制导航条总体高度 */
   font-family: "Lato", serif;
   font-size: 1.1rem;
-  max-width: 400px; /* 新增 */
+  max-width: 500px; /* 新增 */
   margin: 0 auto; /* 新增 */
 }
 
@@ -46,7 +46,7 @@
 .site-nav a {
   flex: 0 1 auto;
   padding: 0 .25rem;
-  margin-right: 5px; /* 控制元素间距 *///margin-right: $spacer2;  //margin-right: $spacer0;
+  margin-right: 10px; /* 控制元素间距 *///margin-right: $spacer2;  //margin-right: $spacer0;
   transition: background 0.1s ease-out;
 
   &:hover {
@@ -80,7 +80,7 @@
 
   .site-nav a {
     margin-right: $spacer1; //margin-right: $spacer;
-    margin-left: 5px;
+    margin-left: 10px;
   }
 }
 
