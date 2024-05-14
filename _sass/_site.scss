@@ -22,8 +22,8 @@
 }
 
 .site-logo {
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .site-nav {
@@ -130,6 +130,19 @@
     display: inline-block;
   }
 }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1 0 auto;
+}
+
+.site-footer {
+  flex-shrink: 0; /* 防止在页面内容较少时页脚上移 */
+}
 
 .site-author {
   font-weight: bold;
@@ -154,19 +167,6 @@
   }
 }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.site-content {
-  flex: 1 0 auto;
-}
-
-.site-footer {
-  flex-shrink: 0; /* 防止在页面内容较少时页脚上移 */
-}
 
 // SITE FOOTER - RESPONSIVE ------------------
 @include mq-up(sm) {
