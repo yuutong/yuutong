@@ -22,16 +22,18 @@
 }
 
 .site-logo {
-  width: 2rem;
-  height: 2rem;
+  width: 1rem;
+  height: 1rem;
 }
 
 .site-nav {
   display: flex;
   justify-content: center;
-  height: 80px; /* 控制导航条总体高度 */
+  height: 40px; /* 控制导航条总体高度 */
   font-family: "Lato", serif;
   font-size: 1.1rem;
+  max-width: 600px; /* 新增 */
+  margin: 0 auto; /* 新增 */
 }
 
 .site-title {
@@ -140,8 +142,10 @@ body {
 .site-content {
   flex: 1 0 auto;
   box-sizing: border-box; /* 新增 */
-  max-width: 748px; /* 新增，将748px替换为你的实际值 */
+  max-width: 1200px; /* 新增，将748px替换为你的实际值 */
   margin: 0 auto; /* 新增，使得内容在页面中居中 */
+  padding-left: $spacer2; /* 新增 */
+  padding-right: $spacer2; /* 新增 */
 
 }
 
