@@ -16,6 +16,7 @@
 
 .site-header {
   display: flex;
+  flex-direction: row; // 添加这行代码
   align-items: center; /* 控制内容在导航条中垂直居中 */
   margin: $spacer2 0 $spacer0;  //margin: $spacer4 0 $spacer1;
   @include clearfix();
@@ -24,11 +25,12 @@
 .site-logo {
   width: 10px;   //0rem;
   height: 10px;    //0rem;
+  margin-right: 5px; // 添加右边距，将图标和文字分开
 }
 
 .site-nav {
   display: flex;
-  justify-content: space-between; //center;
+  //justify-content: space-between; //center;
   height: 20px; /* 控制导航条总体高度 */
   font-family: "Lato", serif;
   font-size: 1.1rem;
