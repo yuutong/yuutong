@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <head>
   <style>
     html {
@@ -23,13 +24,13 @@ layout: default
     height: 100%;
     margin: 0;
     padding: 0;
-    background-attachment: scroll; 
+  
 }
   </style>
 </head>
 
 
-
+  <!--background-attachment: scroll; -->
 
 
 <div class="lead pretty-links">
@@ -232,5 +233,5 @@ layout: default
 
 
 
-  
+*
 </div>
