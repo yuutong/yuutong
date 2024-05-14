@@ -15,6 +15,8 @@
 // SITE HEADER ====================================
 
 .site-header {
+  display: flex;
+  align-items: center; /* 控制内容在导航条中垂直居中 */
   margin: $spacer2 0 $spacer0;  //margin: $spacer4 0 $spacer1;
   @include clearfix();
 }
@@ -27,6 +29,7 @@
 .site-nav {
   display: flex;
   justify-content: center;
+  height: 80px; /* 控制导航条总体高度 */
   font-family: "Lato", serif;
   font-size: 1.1rem;
 }
@@ -38,7 +41,7 @@
 .site-nav a {
   flex: 0 1 auto;
   padding: 0 .25rem;
-  margin-right: $spacer2;  //margin-right: $spacer0;
+  margin-right: 10px; /* 控制元素间距 *///margin-right: $spacer2;  //margin-right: $spacer0;
   transition: background 0.1s ease-out;
 
   &:hover {
