@@ -224,3 +224,16 @@ body {
   &.right { margin-right: .3rem; }
   &.left { margin-left: .3rem; }
 }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.site {
+  flex: 1 0 auto;
+}
