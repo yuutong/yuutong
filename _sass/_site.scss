@@ -22,13 +22,13 @@
 }
 
 .site-logo {
-  width: 0rem;
-  height: 0rem;
+  width: 10px;   //0rem;
+  height: 10px;    //0rem;
 }
 
 .site-nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between; //center;
   height: 20px; /* 控制导航条总体高度 */
   font-family: "Lato", serif;
   font-size: 1.1rem;

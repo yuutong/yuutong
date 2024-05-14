@@ -24,13 +24,14 @@ layout: default
     height: 100%;
     margin: 0;
     padding: 0;
-  
-}
+  }
   </style>
 </head>
 
 
   <!--background-attachment: scroll; -->
+
+
 
 
 <div class="lead pretty-links">
@@ -222,16 +223,4 @@ layout: default
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-*
 </div>
